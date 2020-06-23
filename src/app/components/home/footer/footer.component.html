@@ -1,0 +1,14 @@
+<footer class="footer bg-dark text-center">
+    <div class="container">
+        <div class="row mt-3 justify-content-center">
+            <div class="col-8">
+                <p *ngIf="!translate">&copy; {{anio | date:'yyyy'}} {{nombre}} <small class="badge badge-danger">With Angular</small></p>
+                <p *ngIf="translate">&copy; {{anio | date:'yyyy'}} {{nombre}} <small class="badge badge-danger">Con Angular</small></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>

@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar">
+        <a class="navbar-brand" href="/FeedbackApp/Controlador?accion=index">
+            <img [src]="myLogo" width="60" height="50" alt="icon">
+        </a>
+    </nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['home']">Home</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['projects']">Projects</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-4">
+        <a href="https://www.facebook.com/steven.majek"><span class="badge badge-primary"><i class="fa fa-facebook mx-3" style="font-size:24px"></i></span></a>
+        <a href="https://www.instagram.com/stevenmajek/"><span class="badge badge-danger ml-3"><i class="fa fa-instagram mx-3" style="font-size:24px"></i></span></a>
+        <a href="https://github.com/1majek"><span class="badge badge-dark border ml-3"><i class="fa fa-git-square mx-3" style="font-size:24px"></i></span></a>
+        <a href="https://api.whatsapp.com/send?phone=663509340&text=Hello%20Steven!%20Let's%20talk%20about%20business"><span class="badge badge-success ml-3"><i class="fa fa-whatsapp mx-3" style="font-size:24px"></i></span></a>
+    </div>
+</nav>
